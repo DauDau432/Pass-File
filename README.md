@@ -39,3 +39,4 @@ Copy đoạn code
  goto End
  :End
 ```
+Xóa đoạn chữ `pass của bạn` ở dòng 28 thay bằng pass mà bạn muốn đặt
