@@ -25,7 +25,7 @@ Copy đoạn code
  :UNLOCK
  echo Hay nhap mat khau de mo khoa:
  set/p "pass=>"
- if NOT %pass%== pass của bạn goto FAIL
+ if NOT %pass%== PASS CỦA BẠN goto FAIL
  attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
  ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" DauDau
  echo Folder Unlocked successfully
@@ -39,4 +39,4 @@ Copy đoạn code
  goto End
  :End
 ```
-Xóa đoạn chữ `pass của bạn` ở dòng 28 thay bằng pass mà bạn muốn đặt
+Xóa đoạn chữ `PASS CỦA BẠN` thay bằng pass mà bạn muốn đặt
